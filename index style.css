@@ -1,3 +1,112 @@
 * {
-  font-family: "Averta Demo";
+  font-family: "Averta Demo", sans-serif;
+}
+
+body {
+  max-width: 1600px !important;
+}
+.wrapper {
+  width: 100% !important;
+}
+
+.header {
+  background-image: url("Images/header-bg.svg");
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-text h2 {
+  font-weight: 600;
+}
+
+.header-text a {
+  text-decoration: none;
+}
+
+.main-div {
+  margin-bottom: 100px;
+}
+
+.buttons-div .my-btn:hover {
+  background-color: #fff !important;
+}
+
+.buttons-div .my-btn:hover {
+  color: #e7332b !important;
+}
+
+.buttons-div .exp-btn:hover {
+  background: #e7332b !important;
+}
+
+.buttons-div .exp-btn:hover {
+  color: #fff !important;
+}
+
+.main-div .card {
+  background-color: #fffafa;
+}
+
+.main-div a {
+  text-decoration: none;
+}
+
+.main-div .body-bg img {
+  width: 30% !important;
+  margin-left: -6%;
+  margin-top: -5%;
+}
+
+.main-div .body-bg2 img {
+  width: 30% !important;
+  margin-left: 76%;
+  margin-top: -5%;
+}
+
+.footer-div a {
+  text-decoration: none;
+  color: #e7332b;
+}
+
+.social-icons img {
+  width: 20px !important;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 1px black solid;
+}
+
+.copyright {
+}
+
+/* MEDIA QUERIES*/
+
+@media (max-width: 576px) {
+  .buttons-div {
+    flex-direction: column;
+  }
+  .main-div {
+    flex-direction: column;
+  }
+
+  .footer-div {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-div .body-bg,
+  .main-div .body-bg2 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-div {
+    flex-direction: column;
+  }
 }
