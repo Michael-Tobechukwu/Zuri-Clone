@@ -1,3 +1,77 @@
 * {
-  font-family: "GraphikLCGMedium";
+  font-family: "GraphikLCGMedium", sans-serif;
+}
+
+body {
+  background: rgb(255, 253, 245);
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.gain-know .line-img {
+  float: right;
+}
+
+.enroll img {
+  width: 60px;
+  border-radius: 3rem;
+}
+
+.enroll .enroll-text {
+  text-decoration: none;
+  border-radius: 3rem;
+  margin-right: 20px;
+  border-top-left-radius: -3rem;
+}
+
+.enroll-btn a {
+  text-decoration: none;
+}
+
+.enroll-btn {
+  border-radius: 3rem !important;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 1024px) {
+  .main-nav .nav-list li {
+    display: none;
+  }
+
+  .main-section {
+    flex-direction: column;
+  }
+  .main-section .guy-card {
+    display: none;
+  }
+
+  .sec3-wire-img {
+    margin: 0 auto;
+  }
+
+  .section2 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  br {
+    display: none;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  .why-div img {
+    display: none;
+  }
+}
+
+@media (max-width: 568px) {
+  .illustrations .male-face {
+    display: none;
+  }
 }
