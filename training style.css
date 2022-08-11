@@ -207,6 +207,11 @@ body {
   .third-card {
     width: 42%;
   }
+  
+  .get-started-box {
+    flex-direction: column;
+  }
+  
 }
 
 @media (max-width: 768px) {
