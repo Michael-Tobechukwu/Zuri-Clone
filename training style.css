@@ -6,6 +6,10 @@ body {
   background: rgb(255, 253, 245);
 }
 
+.nav {
+  background: rgb(255, 253, 245);
+}
+
 .nav-list li {
   list-style: none;
 }
@@ -17,13 +21,15 @@ body {
 .enroll img {
   width: 60px;
   border-radius: 3rem;
+  background: #e7332b !important;
 }
 
 .enroll .enroll-text {
   text-decoration: none;
   border-radius: 3rem;
   margin-right: 20px;
-  border-top-left-radius: -3rem;
+  border-top-left-radius: 3rem;
+  background: #e7332b !important;
 }
 
 .enroll-btn a {
@@ -32,11 +38,138 @@ body {
 
 .enroll-btn {
   border-radius: 3rem !important;
+  background: #e7332b !important;
+}
+
+.first-card {
+  background: #e7332b !important;
+  border-radius: 18px !important;
+  transition: 0.5s ease;
+  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+  width: 32%;
+}
+
+.first-card:hover {
+  transform: translateY(-15px);
+}
+
+.second-card {
+  border-radius: 18px !important;
+  transition: 0.5s ease;
+  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+  width: 32%;
+}
+
+.second-card:hover {
+  transform: translateY(-15px);
+}
+
+.third-card {
+  border-radius: 18px !important;
+  transition: 0.5s ease;
+  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+  width: 32%;
+}
+
+.third-card:hover {
+  transform: translateY(-15px);
+}
+
+.get-started-box {
+  background-color: rgb(231, 51, 43);
+}
+
+.started-card1 {
+  margin-left: 5%;
+  width: 49%;
+}
+
+.started-card1 .wire-image {
+  margin-left: 35%;
+}
+
+.started-card1 p {
+  width: 85%;
+}
+
+.get-started-buttons a {
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.enrollNow {
+  border-radius: 3rem !important;
+  box-shadow: 0 2px 3px black;
+}
+
+.teamwork-btn {
+  border-radius: 3rem;
+  padding: 10px 80px 10px 15px;
+}
+.fun-btn img {
+  width: 50px;
+}
+
+.fun-btn {
+  border-radius: 3rem;
+  padding: 10px 70px 10px 15px;
+  margin-left: 0.65rem;
+}
+
+.teamwork-btn img {
+  width: 50px;
+}
+
+.scope-box {
+  background: rgb(255, 253, 245);
+}
+
+.scope-box h3 {
+  width: 53%;
+}
+
+.scope-box .wire-img {
+  margin-left: 25rem;
+}
+
+.program-cards .card {
+  width: 32%;
+  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+  border-radius: 18px !important;
+}
+
+.logos img {
+  width: 15%;
+}
+
+.logos .figma {
+  width: 25% !important;
+}
+
+.program-btn {
+  border-radius: 3rem;
+  margin: 0 auto;
+  background: #e7332b !important;
+  padding: 0.5rem 2.2rem;
+}
+
+.program-btn a {
+  text-decoration: none;
 }
 
 /*MEDIA QUERIES*/
+@media (max-width: 1200px) {
+  .main-nav .nav-list li {
+    display: none;
+  }
+}
+
 @media (max-width: 1024px) {
   .main-nav .nav-list li {
+    display: none;
+  }
+
+  br {
     display: none;
   }
 
@@ -47,12 +180,32 @@ body {
     display: none;
   }
 
+  .main-section .lady-card img {
+    width: 100%;
+  }
+
   .sec3-wire-img {
     margin: 0 auto;
   }
 
   .section2 {
-    flex-direction: column;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .section2 img {
+    margin: 0 auto;
+  }
+
+  .section2 h3,
+  .section2 h4 {
+    text-align: left !important;
+  }
+
+  .first-card,
+  .second-card,
+  .third-card {
+    width: 42%;
   }
 }
 
@@ -68,10 +221,22 @@ body {
   .why-div img {
     display: none;
   }
+
+  .first-card,
+  .second-card,
+  .third-card {
+    width: 92%;
+  }
 }
 
 @media (max-width: 568px) {
   .illustrations .male-face {
     display: none;
+  }
+
+  .first-card,
+  .second-card,
+  .third-card {
+    width: 92%;
   }
 }
