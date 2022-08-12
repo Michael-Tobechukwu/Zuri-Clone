@@ -80,6 +80,9 @@ hr {
   border: 1px black solid;
 }
 
+.copyright {
+}
+
 /* MEDIA QUERIES*/
 
 @media (max-width: 576px) {
