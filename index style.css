@@ -1,365 +1,109 @@
 * {
-  font-family: "Graphik", sans-serif;
+  font-family: "Averta Demo", sans-serif;
 }
 
 body {
-  background: rgb(255, 253, 245);
+  max-width: 1600px !important;
+}
+.wrapper {
+  width: 100% !important;
 }
 
-.nav {
-  background: rgb(255, 253, 245);
+.header {
+  background-image: url("Images/header-bg.svg");
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.nav-list li {
-  list-style: none;
+.header-text h2 {
+  font-weight: 600;
 }
 
-.gain-know .line-img {
-  float: right;
-}
-
-.enroll img {
-  width: 60px;
-  border-radius: 3rem;
-  background: #e7332b !important;
-}
-
-.enroll .enroll-text {
-  text-decoration: none;
-  border-radius: 3rem;
-  margin-right: 20px;
-  border-top-left-radius: 3rem;
-  background: #e7332b !important;
-}
-
-.enroll-btn a {
+.header-text a {
   text-decoration: none;
 }
 
-.enroll-btn {
-  border-radius: 3rem !important;
-  background: #e7332b !important;
+.main-div {
+  margin-bottom: 100px;
 }
 
-.first-card {
-  background: #e7332b !important;
-  border-radius: 18px !important;
-  transition: 0.5s ease;
-  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
-  width: 32%;
+.buttons-div .my-btn:hover {
+  background-color: #fff !important;
 }
 
-.first-card:hover {
-  transform: translateY(-15px);
+.buttons-div .my-btn:hover {
+  color: #e7332b !important;
 }
 
-.second-card {
-  border-radius: 18px !important;
-  transition: 0.5s ease;
-  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
-  width: 32%;
+.buttons-div .exp-btn:hover {
+  background: #dc3545 !important;
 }
 
-.second-card:hover {
-  transform: translateY(-15px);
+.buttons-div .exp-btn:hover {
+  color: #fff !important;
 }
 
-.third-card {
-  border-radius: 18px !important;
-  transition: 0.5s ease;
-  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
-  width: 32%;
+.main-div .card {
+  background-color: #fffafa;
 }
 
-.third-card:hover {
-  transform: translateY(-15px);
-}
-
-.get-started-box {
-  background-color: rgb(231, 51, 43);
-}
-
-.started-card1 {
-  margin-left: 5%;
-  width: 50%;
-}
-
-.started-card1 .wire-image {
-  margin: 0 0 0 35%;
-}
-
-.started-card1 p {
-  width: 85%;
-}
-
-.get-started-buttons a {
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-}
-
-.enrollNow {
-  border-radius: 3rem !important;
-  box-shadow: 0 2px 3px black;
-}
-
-.teamwork-btn {
-  border-radius: 3rem;
-  padding: 10px 65px 10px 12px;
-}
-.fun-btn img {
-  width: 50px;
-}
-
-.fun-btn {
-  border-radius: 3rem;
-  padding: 10px 65px 10px 15px;
-}
-
-.teamwork-btn img {
-  width: 50px;
-}
-
-.scope-box {
-  background: rgb(255, 253, 245);
-}
-
-.scope-box h3 {
-  width: 53%;
-}
-
-.scope-box .wire-img {
-  margin-left: 25rem;
-}
-
-.program-cards {
-  width: 100%;
-}
-
-.program-cards .card {
-  width: 32%;
-  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
-  border-radius: 18px !important;
-}
-
-.logos img {
-  width: 15%;
-}
-
-.logos .figma {
-  width: 25% !important;
-}
-
-.program-btn {
-  border-radius: 3rem;
-  margin-left: 45%;
-  background: #e7332b !important;
-  padding: 0.5rem 2.2rem;
-}
-
-.program-btn a {
+.main-div a {
   text-decoration: none;
 }
 
-.accordion-box {
-  background: none;
+.main-div .body-bg img {
+  width: 30% !important;
+  margin-left: -6%;
+  margin-top: -5%;
 }
 
-.accordion-flush {
-  border: 1px solid rgba(71, 44, 111, 0.43) !important;
+.main-div .body-bg2 img {
+  width: 30% !important;
+  margin-left: 76%;
+  margin-top: -5%;
 }
 
-.accordion button {
-  color: #333 !important;
-  font-weight: bold;
-  font-family: "Graphik", sans-serif;
-  background: none !important;
-  padding: 25px 20px;
+.footer-div a {
+  text-decoration: none;
+  color: #e7332b;
 }
 
-.accordion-collapse {
-  color: black !important;
+.social-icons img {
+  width: 20px !important;
 }
 
-.accordion div {
-  font-family: "Times New Roman", Times, serif;
-}
-
-.tweet-box {
+hr {
+  width: 80%;
   margin: 0 auto;
+  margin-bottom: 20px;
+  border: 1px black solid;
 }
 
-.tweet-box a {
-  border-radius: 3rem !important;
-  background: #e7332b !important;
-  padding: 10px 30px;
-}
+/* MEDIA QUERIES*/
 
-.full-time,
-.part-time {
-  border-radius: 3rem !important;
-  width: 47%;
-  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
-  position: relative;
-}
-
-.full-time .hour-img {
-  position: absolute;
-  right: -350px;
-  bottom: 20px;
-}
-
-.part-time .time-img {
-  position: absolute;
-  left: 150px;
-  bottom: 30px;
-}
-
-.post-program a {
-  color: #fff;
-}
-
-.post-program img {
-  cursor: pointer;
-}
-
-.trainng-plus li {
-  list-style: none;
-}
-
-.html-plus li {
-  list-style: none;
-}
-
-.python-plus li {
-  list-style: none;
-}
-
-.figma li {
-  list-style: none;
-}
-
-/*MEDIA QUERIES*/
-@media (max-width: 1200px) {
-  .main-nav .nav-list li {
-    display: none;
+@media (max-width: 576px) {
+  .buttons-div {
+    flex-direction: column;
   }
-
-  .first-card,
-  .second-card,
-  .third-card {
-    width: 48%;
-  }
-
-  .get-started-box {
+  .main-div {
     flex-direction: column;
   }
 
-  .started-card1 {
-    margin-left: 0;
-    width: 99%;
-  }
-
-  .started-card1 p {
-    width: 100%;
-  }
-
-  .scope-box h3 {
-    width: 95%;
-  }
-
-  .scope-box .wire-img {
-    margin: 0 auto;
-    width: 80%;
-  }
-
-  .program-cards .card {
-    width: 48%;
+  .footer-div {
+    flex-direction: column;
   }
 }
 
 @media (max-width: 1024px) {
-  .main-nav .nav-list li {
+  .main-div .body-bg,
+  .main-div .body-bg2 {
     display: none;
-  }
-
-  br {
-    display: none;
-  }
-
-  .main-section {
-    flex-direction: column;
-  }
-  .main-section .guy-card {
-    display: none;
-  }
-
-  .main-section .lady-card img {
-    width: 100%;
-  }
-
-  .sec3-wire-img {
-    margin: 0 auto;
-  }
-
-  .section2 {
-    flex-direction: row;
-    text-align: center;
-  }
-
-  .section2 img {
-    margin: 0 auto;
-  }
-
-  .section2 h3,
-  .section2 h4 {
-    text-align: left !important;
-  }
-}
-
-@media (max-width: 999px) {
-  .first-card,
-  .second-card,
-  .third-card {
-    width: 97%;
   }
 }
 
 @media (max-width: 768px) {
-  br {
-    display: none;
-  }
-
-  nav {
+  .main-div {
     flex-direction: column;
-  }
-
-  .why-div img {
-    display: none;
-  }
-
-  .first-card,
-  .second-card,
-  .third-card {
-    width: 97%;
-  }
-}
-
-@media (max-width: 568px) {
-  .illustrations .male-face {
-    display: none;
-  }
-
-  .first-card,
-  .second-card,
-  .third-card {
-    width: 92%;
-  }
-
-  .program-cards .card {
-    width: 95%;
-  }
-
-  .program-btn {
-    margin-left: 30%;
   }
 }
