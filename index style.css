@@ -85,7 +85,7 @@ body {
 }
 
 .started-card1 .wire-image {
-  margin-left: 35%;
+  margin: 0 0 0 35%;
 }
 
 .started-card1 p {
@@ -184,6 +184,60 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
+.tweet-box {
+  margin: 0 auto;
+}
+
+.tweet-box a {
+  border-radius: 3rem !important;
+  background: #e7332b !important;
+  padding: 10px 30px;
+}
+
+.full-time,
+.part-time {
+  border-radius: 3rem !important;
+  width: 47%;
+  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+  position: relative;
+}
+
+.full-time .hour-img {
+  position: absolute;
+  right: -350px;
+  bottom: 20px;
+}
+
+.part-time .time-img {
+  position: absolute;
+  left: 150px;
+  bottom: 30px;
+}
+
+.post-program a {
+  color: #fff;
+}
+
+.post-program img {
+  cursor: pointer;
+}
+
+.trainng-plus li {
+  list-style: none;
+}
+
+.html-plus li {
+  list-style: none;
+}
+
+.python-plus li {
+  list-style: none;
+}
+
+.figma li {
+  list-style: none;
+}
+
 /*MEDIA QUERIES*/
 @media (max-width: 1200px) {
   .main-nav .nav-list li {
@@ -262,6 +316,14 @@ body {
   }
 }
 
+@media (max-width: 999px) {
+  .first-card,
+  .second-card,
+  .third-card {
+    width: 97%;
+  }
+}
+
 @media (max-width: 768px) {
   br {
     display: none;
@@ -278,7 +340,7 @@ body {
   .first-card,
   .second-card,
   .third-card {
-    width: 92%;
+    width: 97%;
   }
 }
 
