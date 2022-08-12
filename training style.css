@@ -336,6 +336,10 @@ body {
   .section2 h4 {
     text-align: left !important;
   }
+  
+  .break-box h2 {
+    width: 60%;
+  }
 }
 
 @media (max-width: 999px) {
