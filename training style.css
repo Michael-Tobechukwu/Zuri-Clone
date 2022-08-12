@@ -1,5 +1,6 @@
 * {
-  font-family: "Graphik", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  /*Graphik font wasn't working, so used an alternative.*/
 }
 
 body {
@@ -27,8 +28,7 @@ body {
 .enroll .enroll-text {
   text-decoration: none;
   border-radius: 3rem;
-  margin-right: 20px;
-  border-top-left-radius: 3rem;
+  margin-right: 2rem;
   background: #e7332b !important;
 }
 
@@ -160,18 +160,14 @@ body {
   text-decoration: none;
 }
 
-.accordion-box {
-  background: none;
-}
-
 .accordion-flush {
   border: 1px solid rgba(71, 44, 111, 0.43) !important;
+  background: none !important;
 }
 
 .accordion button {
   color: #333 !important;
   font-weight: bold;
-  font-family: "Graphik", sans-serif;
   background: none !important;
   padding: 25px 20px;
 }
@@ -198,20 +194,21 @@ body {
 .part-time {
   border-radius: 3rem !important;
   width: 47%;
-  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+  box-shadow: 0 25px 47px rgba(231, 52, 43, 0.35);
   position: relative;
 }
 
 .full-time .hour-img {
   position: absolute;
-  right: -350px;
-  bottom: 20px;
+  left: 20rem;
+  bottom: 3rem;
+  right: 0;
 }
 
 .part-time .time-img {
   position: absolute;
-  left: 150px;
-  bottom: 30px;
+  left: 20rem;
+  bottom: 7rem;
 }
 
 .post-program a {
@@ -236,6 +233,31 @@ body {
 
 .figma li {
   list-style: none;
+}
+
+.break-box {
+  border-radius: 2rem !important;
+  background: #e7332b;
+}
+
+.break-box h2 {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.break-box .break-btn {
+  border-radius: 3rem;
+  padding: 0.5rem 2.2rem;
+  box-shadow: 0 2px 3px black;
+}
+
+.break-box a {
+  text-decoration: none;
+}
+
+.copyright-flex a {
+  text-decoration: none;
+  color: ;
 }
 
 /*MEDIA QUERIES*/
@@ -340,6 +362,11 @@ body {
   .first-card,
   .second-card,
   .third-card {
+    width: 97%;
+  }
+
+  .full-time,
+  .part-time {
     width: 97%;
   }
 }
