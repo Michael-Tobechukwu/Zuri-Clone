@@ -15,10 +15,106 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="Images/zuri logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="talent style.css" />
+    <title>Zuri</title>
   </head>
   <body>
-    <h1>Zuri.team</h1>
+    <div class="wrapper container-fluid bg-white mt-0 p-0" id="home-link">
+      <div class="nav nav-bar container-fluid sticky-top mt-0">
+        <nav
+          class="d-flex justify-content-between align-items-center mt-0 container pt-2"
+        >
+          <a class="navbar-brand" href="#">
+            <img
+              src="Images/zuri.talent red.svg"
+              alt="I4GxZuri Logo"
+              width="100%"
+          /></a>
+
+          <div class="main-nav d-inline-flex align-items-center gap-3">
+            <ul class="d-inline-flex nav-list gap-0">
+              <li class="nav-item home-link">
+                <a href="#home-link" class="nav-link text-black py-3">Home</a>
+              </li>
+              <li class="nav-item impact-link">
+                <a href="#impact-link" class="nav-link text-black py-3"
+                  >Impact</a
+                >
+              </li>
+              <li class="nav-item why-link">
+                <a href="#why-link" class="nav-link text-black py-3">Why Us</a>
+              </li>
+            </ul>
+            <a href="#" class="nav-btn btn text-white rounded-0 px-4"
+              >Hire talents</a
+            >
+          </div>
+        </nav>
+      </div>
+      <!--nav end-->
+
+      <div
+        class="header container mt-5 d-flex justify-content-between align-items-center"
+      >
+        <div class="header-text mb-5">
+          <h1 class="fw-bold">Vetted and Trusted <span>talents</span></h1>
+
+          <img src="Images/thick2.svg" />
+          <p class="fs-5 mt-3">
+            At Zuri Team, we train, test and place talent in various industries.
+            We have access to the best pool of skills in the tech Industry.
+          </p>
+          <div
+            class="header-buttons d-flex justify-content-start align-items-center gap-2 mt-4"
+          >
+            <a href="#" class="hire-btn btn px-5 text-white rounded-0"
+              >Hire Talent</a
+            >
+            <a href="#" class="join-btn btn px-4 text-white rounded-0"
+              >Join Talent pool</a
+            >
+          </div>
+        </div>
+        <img
+          src="Images/section1 behind smiling.png"
+          width="35%"
+          class="smiling-man"
+        />
+      </div>
+
+      <section class="impact container-fluid mt-5 bg-white" id="impact-link">
+        <br />
+        <div
+          class="impact-box container d-flex justify-content-between align-items-center"
+        >
+          <div class="impact-content">
+            <h1 class="">
+              We have impacted the lives of <span>thousands</span> around the
+              world
+            </h1>
+            <p class="fw-bold my-0 fs-5">6,000 trained in 14 months</p>
+            <p style="color: #787878" class="fs-5 mb-2">
+              Talent Placed in 5 countries
+            </p>
+            <div class="countries mb-5">
+              <img src="Images/GER flag.svg" alt="" />
+              <img src="Images/ENG flag.svg" alt="" />
+              <img src="Images/india.svg" alt="" />
+              <img src="Images/NIGERIA.svg" alt="" />
+              <img src="Images/usa.svg" alt="" />
+            </div>
+          </div>
+
+          <img src="Images/talent-section2.png" width="40%" class="mt-0" />
+        </div>
+      </section>
+    </div>
+    <!--wrapper end-->
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.js"></script>
