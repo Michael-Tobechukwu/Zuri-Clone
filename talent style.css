@@ -1,0 +1,169 @@
+* {
+  font-family: "Work Sans", serif;
+  /*Graphik font wasn't working, so used an alternative.*/
+}
+
+body {
+  background: #fff;
+}
+
+.nav {
+  background: #fff;
+}
+
+.nav-list li {
+  list-style: none;
+  margin-left: 1.5rem;
+}
+
+.nav-list li :hover {
+  background-color: aliceblue;
+}
+
+.nav-btn {
+  border-bottom-right-radius: 10px !important;
+  background: #e7332b;
+  margin-left: 1.2rem !important;
+}
+
+.home-link,
+.home-link:active {
+  border-bottom: 3px solid #e7332b;
+}
+
+.impact-link:active .home-link,
+.why-link:active .home-link {
+  border: none;
+}
+
+.impact-link:active,
+.why-link:active {
+  border-bottom: 3px solid #e7332b;
+}
+
+.header-text {
+  margin-top: 17rem !important;
+  width: 45%;
+  position: relative;
+}
+
+.header-text h1 span {
+  color: #e7332b;
+}
+
+.header-text p {
+  color: #787878;
+  line-height: 1.5rem;
+}
+
+.header-text img {
+  position: absolute;
+  right: 4%;
+  top: 7%;
+}
+
+.hire-btn {
+  border-bottom-right-radius: 10px !important;
+  background: #e7332b;
+  box-shadow: 2px 2px 2px #787878;
+}
+
+.join-btn {
+  border-bottom-right-radius: 10px !important;
+  background: #585858;
+  box-shadow: 2px 2px 2px #787878;
+  margin-left: 1rem;
+}
+
+.impact {
+  background-image: url("Images/bgsection2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.countries img {
+  padding: 10px;
+  background: #fff;
+  margin-right: 0.7rem;
+  border-radius: 1rem;
+}
+
+.impact-content {
+  margin-top: 8rem;
+  width: 55%;
+  line-height: 1.65rem;
+}
+
+.impact-content h1 {
+  font-weight: 600;
+}
+
+.impact-content span {
+  color: #e7332b;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header .smiling-man {
+    width: 80%;
+  }
+
+  .header-text {
+    margin-top: 7rem !important;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .header-buttons {
+    justify-content: center !important;
+  }
+
+  .impact-content {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-list {
+    display: none !important;
+  }
+  .header-text {
+    width: 87%;
+  }
+  .impact-content {
+    width: 75%;
+    text-align: center;
+  }
+
+  .impact-box {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 568px) {
+  .header-buttons .hire-btn,
+  .header-buttons .join-btn,
+  .nav-btn {
+    padding: 10px !important;
+  }
+
+  .header-text {
+    margin-top: 2rem !important;
+    width: 90%;
+  }
+
+  .header-text img {
+    position: absolute;
+    right: 4%;
+    top: 12%;
+  }
+
+  .impact-content {
+    width: 95%;
+  }
+}
