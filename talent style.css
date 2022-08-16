@@ -102,6 +102,60 @@ body {
   color: #e7332b;
 }
 
+.skills-box {
+  position: relative;
+}
+
+.skills-box .line {
+  position: absolute;
+  top: 150px;
+  right: 0;
+}
+
+.skills-content h3 span {
+  color: #e7332b;
+}
+
+.skills-content p {
+  padding: 1rem 2.3rem;
+  color: #585858;
+  box-shadow: 3px 8px 15px #78787899;
+  transition: ease 0.3s;
+}
+
+.skills-content p:hover {
+  transform: translateY(-10px);
+}
+
+.skills-content2 p {
+  padding: 1rem 2rem;
+  color: #585858;
+  box-shadow: 3px 8px 15px #78787899;
+  transition: ease 0.3s;
+}
+
+.skills-content2 p:hover {
+  transform: translateY(-10px);
+}
+
+.sectionhire {
+  background-color: rgb(255, 248, 229);
+}
+
+.whyhire-box .whycard {
+  width: 32%;
+  border-bottom-right-radius: 1.2rem !important;
+}
+
+.whyhire-box .whycard:hover {
+  background-color: #000 !important;
+  color: #fff;
+}
+
+.whyhire-box h2 span {
+  color: #e7332b;
+}
+
 /*MEDIA QUERIES*/
 @media (max-width: 1024px) {
   .header {
@@ -125,6 +179,9 @@ body {
 
   .impact-content {
     width: 50%;
+  }
+  .skills-box .line {
+    display: none;
   }
 }
 
