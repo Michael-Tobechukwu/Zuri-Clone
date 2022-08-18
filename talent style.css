@@ -178,8 +178,9 @@ body {
   cursor: pointer;
 }
 
-.footer-icons li {
+.footer-icons ul li {
   display: inline-block !important;
+  margin-right: 1rem;
 }
 
 /*MEDIA QUERIES*/
@@ -228,6 +229,20 @@ body {
   }
   .whyhire-box .whycard {
     width: 47%;
+  }
+
+  .logo-social {
+    flex-direction: column;
+    justify-content: space-around !important;
+    align-items: center;
+  }
+  .copyright {
+    flex-direction: column-reverse;
+    justify-content: space-around !important;
+    align-items: center;
+  }
+  .copyright hr {
+    display: block;
   }
 }
 
